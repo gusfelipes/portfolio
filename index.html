@@ -3,20 +3,159 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gustavo Felipe Scheneider</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Meu Portifólio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/54bc533e31.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
+    <header id="inicio">
       <nav class="menu">
         <ul>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Portifólio</a></li>
-          <li><a href="#">Contato</a></li>
+          <li>
+            <a href="#inicio"><i class="fas fa-home"></i></a>
+          </li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </nav>
-      <h1 class="site-title">Gustavo Felipe Scheneider</h1>
-      <h2 class="site-subtitle">jr. Frontend Developer</h2>
+      <div class="titulo">
+        <h1 class="site-title">Gustavo Felipe Scheneider</h1>
+        <h2 class="site-subtitle">jr. Frontend Developer</h2>
+      </div>
     </header>
+    <section id="sobre" class="sobre">
+      <h2>Sobre</h2>
+      <figure class="avatar">
+        <img src="./img/avatar.jpg" alt="Foto do Gustavo Felipe Scheneider" />
+      </figure>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, totam
+        dolorum! Voluptates similique vero molestias officiis necessitatibus,
+        perferendis quidem repellat amet perspiciatis. Minus minima quas velit
+        voluptates. Eveniet, unde repellat!
+      </p>
+      <p>
+        Laudantium reprehenderit beatae libero adipisci officia perferendis
+        inventore in delectus doloribus error magnam, natus consequatur vitae
+        nemo aspernatur esse! Natus officia porro officiis voluptate iste qui
+        recusandae molestiae sint hic.
+      </p>
+      <p>
+        Ipsam excepturi consectetur esse dolorum incidunt repudiandae nemo eaque
+        doloribus aspernatur deserunt, odit sapiente odio corrupti tempora
+        officia libero modi at laudantium quidem molestiae quis optio maiores.
+        Ipsum, ex corporis.
+      </p>
+      <p>
+        Adipisci blanditiis enim beatae inventore, suscipit maiores veniam!
+        Consequatur ex cum facilis aspernatur, nam molestiae consequuntur
+        ratione enim. Blanditiis rem itaque ipsam quam, magnam eos velit
+        similique! Accusantium, mollitia natus!
+      </p>
+      <p>
+        Unde ipsam nulla aut eaque esse fugiat accusantium, eveniet sed
+        inventore, a porro accusamus itaque aliquam doloremque? Molestias
+        dolorem blanditiis velit accusamus, beatae voluptates a, aperiam
+        expedita aspernatur, perspiciatis libero!
+      </p>
+      <p>
+        Esse site foi contruído durante a
+        <a href="https://www.alura.com.br/imersao-css"></a>Imersão CSS da Alura
+      </p>
+    </section>
+    <section id="portfolio" class="portfolio container">
+      <h2>Projetos</h2>
+
+      <div class="grid">
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img
+                class="img-portfolio"
+                src="./img/alura.png"
+                alt="imagem para o site da Alura"
+              />
+            </figure>
+            <div class="card-back">
+              <h3>Alura</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img
+                class="img-portfolio"
+                src="./img/caelum.png"
+                alt="imagem para o site da Caelum"
+              />
+            </figure>
+            <div class="card-back">
+              <h3>Caelum</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img
+                class="img-portfolio"
+                src="./img/likeaboss.png"
+                alt="Like a Boss"
+              />
+            </figure>
+            <div class="card-back">
+              <h3>Like a boss</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img
+                class="img-portfolio"
+                src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
+                alt=""
+              />
+            </figure>
+            <div class="card-back">
+              <h3>Projetos Pessoais</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contato" class="contato">
+      <h2>Contato</h2>
+      <div class="grid icons">
+        <a target="_blank" href="https://www.github.com/gusfelipes"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a target="_blank" href="https://www.twitter.com/gusfelipes"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a target="_blank" href="https://www.linkedin.com/in/gusfelipes"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a target="_blank" href="mailto:gusfelipes@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </section>
   </body>
 </html>
