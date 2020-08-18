@@ -3,4 +3,4 @@
 
 
 
-[Acesse aqui](gusfelipes.github.io/portfolio)
+[Acesse aqui](http://gusfelipes.github.io/portfolio)
