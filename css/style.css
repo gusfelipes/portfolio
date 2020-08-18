@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: tomato;
+  background-color: #9b59b6;
   color: aliceblue;
   /* background: url("../img/fundo.jpg") teal; */
   /* background-size: auto 100vh; */
@@ -69,7 +69,7 @@ header {
 
 .menu a:hover,
 .menu a:active {
-  background-color: tomato;
+  background-color: #9b59b6;
   color: aliceblue;
   transition: background-color 500ms, color 500ms;
 }
@@ -152,7 +152,7 @@ header {
 
 .sobre a:hover {
   background-color: aliceblue;
-  color: tomato;
+  color: #9b59b6;
 }
 
 .sobre .avatar {
